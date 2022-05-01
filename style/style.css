@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width 780px) and (max-width: 1024px) {
+    
+}
+
+
+
+.cabeza{
+        width: auto;
+        background-color: black;
+        border: 5px gold solid; 
+        font-size: 1rem;
+    }
+body {
+    background-color: palegoldenrod;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 16px;
+}
+
+.navbar-collapse{
+    justify-content: end;    
+} 
+
+
+.catalogo{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
+.catalogo:hover{
+        color: white;
+}
+
+.carousel__borde{
+        padding-bottom: 10px;
+        border: 5px gold solid;
+}
+
+.productos{
+    background-color: black;
+    color: white;
+    border: 5px gold solid; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
+
+.imagenes{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+            border: 5px gold solid;
+            background-color: black;
+            margin-bottom: 2px;          
+}
+
+.imagenes__solas{
+        width: 400px;
+        height: 400px;
+        border: 3px white solid; 
+        margin: 5px;
+}
+
+.texto{
+            color: white;
+            border: 2px white solid;
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: auto;
+
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.otros{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: 5px gold solid;
+            background-color: black;
+}
+
+#video{
+    border: none;
+    
+ 
+}
+
+.consulta{
+        background-color: white;
+        margin: 90px;
+        border: 5px gold solid;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 22em;
+        
+       }
+
+@media (max-width: 1200px) {
+        body{ 
+            font-size: 14px;}
+        h1{
+            font-size: 100px;
+    
+        }    
+}
+
+
+@media (max-width: 992px) {
+    body{ 
+        font-size: 12px;}
+    h1{
+        font-size: 80px;
+
+}
+
+@media (max-width: 768px) {
+    body{
+        font-size: 10px;}
+    h1{
+        font-size: 60px;
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 10px;
+    }
+    .imagenes__solas{
+        margin-left: 130px;
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+    body{ 
+        font-size: 8px;}
+    h1{
+        font-size: 40px;}
+    }

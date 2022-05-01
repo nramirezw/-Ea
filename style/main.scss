@@ -1,0 +1,29 @@
+header{
+    h1{
+        color: white;
+        font-size: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: center;
+    }
+}
+
+footer{
+    h2{
+        color: white;
+    }
+    .redes__sociales{
+        height: 35px;
+        width: 35px;
+}
+       
+.redes__logo {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;      
+    }   
+
+}
